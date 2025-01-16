@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>io.github.roseblume.rosemusic</id>
+    <launchable type="desktop-id">io.github.roseblume.rosemusic.desktop</launchable>
+    <name>Rosary Music</name>
+    <developer id="io.github.roseblume.rosemusic">
+        <name translate="no">James A. Rose</name>
+    </developer>
+    <content_rating type="oars-1.1">
+    </content_rating>
+    <keywords>
+        <keyword>Music</keyword>
+        <keyword>Radio</keyword>
+        <keyword xml:lang="de">Musik</keyword>
+        <keyword xml:lang="es">Música</keyword>
+        <keyword xml:lang="fr">Musique</keyword>
+    </keywords>
+    <branding>
+        <color type="primary" scheme_preference="light">#00ffff</color>
+        <color type="primary" scheme_preference="dark">#0c9aff</color>
+    </branding>
+    <recommends>
+        <display_length compare="ge">360</display_length>
+    </recommends>
+    <summary>Listen To Online Radio</summary>
+    <summary xml:lang="de">Hören Sie Online-Radio</summary>
+    <summary xml:lang="es">Escucha la radio en línea</summary>
+    <summary xml:lang="fr">Écoutez la radio en ligne</summary>
+
+    <metadata_license>MIT</metadata_license>
+    <project_license>MIT</project_license>
+    <url type="homepage">https://github.com/RoseBlume/RoseMusic</url>
+
+    <supports>
+        <control>pointing</control>
+        <control>keyboard</control>
+        <control>touch</control>
+    </supports>
+
+    <description>
+        <p>
+            Listen to online radio stations from around the world. This app is a simple radio player that allows you to listen to a variety of online radio stations on any device.
+        </p>
+        <p xml:lang="de">
+            Hören Sie Online-Radiosender aus der ganzen Welt. Diese App ist ein einfacher Radioplayer, mit dem Sie eine Vielzahl von Online-Radiosendern auf jedem Gerät anhören können.
+        </p>
+        <p xml:lang="es">
+            Escucha estaciones de radio en línea de todo el mundo. Esta aplicación es un sencillo reproductor de radio que te permite escuchar una variedad de estaciones de radio en línea en cualquier dispositivo.
+        </p>
+        <p xml:lang="fr">
+            Écoutez des stations de radio en ligne du monde entier. Cette application est un simple lecteur de radio qui vous permet d'écouter une variété de stations de radio en ligne sur n'importe quel appareil.
+        </p>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://github.com/RoseBlume/RoseMusic/blob/side/App.png?raw=true</image>
+            <caption>Menu</caption>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="2.1.2" date="2025-1-15">
+          <description>
+            <ul>
+              <li>Improved Metadata</li>
+            </ul>
+          </description>
+        </release>
+        <release version="2.1.1" date="2024-12-19">
+            <description>
+            <ul>
+                <li>Improved Phosh support</li>
+            </ul>
+            </description>
+        </release>
+    <release version="2.1.0" date="2024-11-13">
+            <description>
+            <ul>
+                <li>Added Support for more languages</li>
+            </ul>
+            </description>
+        </release>
+    <release version="2.0.2" date="2024-11-12">
+            <description>
+            <ul>
+                <li>Removed Inactive Stations</li>
+                <li>Added Reggae Stations</li>
+            </ul>
+            </description>
+        </release>
+        <release version="2.0.0" date="2024-11-08">
+            <description>
+            <ul>
+                <li>Improved App Speed</li>
+            </ul>
+            </description>
+        </release>
+        <release version="1.0.0" date="2024-11-02" >
+            <description>
+            <ul>
+                <li>Updated UI</li>
+                <li>Added Electronic Genre</li>
+            </ul>
+            </description>
+        </release>
+    </releases>
+    <update_contact>jrosary-dev@outlook.com</update_contact>
+</component>
