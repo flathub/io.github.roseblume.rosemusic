@@ -59,6 +59,13 @@
     </screenshots>
 
     <releases>
+        <release version="3.0.0" date="2025-11-15">
+            <description>
+                <ul>
+                    <li>Improved scanning of Music directory</li>
+                </ul>
+            </description>
+        </release>
         <release version="2.1.2" date="2025-1-15">
           <description>
             <ul>
