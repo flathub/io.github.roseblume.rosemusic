@@ -35,11 +35,6 @@ modules:
       - cargo-sources.json
       - node-sources.json
     build-commands:
-      - export HOME=/run/build/rose-music
-      - export CARGO_HOME=/run/build/rose-music/src-tauri
-      - export XDG_CACHE_HOME=/run/build/rose-music/flatpak-node/cache
-      - export yarn_config_offline=true
-      - export yarn_config_cache=/run/build/rose-music/flatpak-node/npm-cache
       - echo -e 'yarn-offline-mirror "/run/build/rose-music/flatpak-node/yarn-mirror"\nyarn-offline-mirror-pruning true' > /run/build/rose-music/.yarnrc
       - mkdir -p src-tauri/.cargo && echo -e '[source.crates-io]\nreplace-with = "vendored-sources"\n\n[source.vendored-sources]\ndirectory = "/run/build/rose-music/cargo/vendor"' > src-tauri/.cargo/config.toml
       - yarn install  --offline --immutable --immutable-cache --inline-builds
@@ -54,6 +49,7 @@ modules:
       - install -Dm644 src-tauri/target/release/bundle/deb/Rosary*/data/usr/share/icons/hicolor/scalable/apps/rosary-music.svg /app/share/icons/hicolor/scalable/apps/rosary-music.svg
 
       - install -Dm644 io.github.roseblume.rosemusic.metainfo.xml /app/share/metainfo/io.github.roseblume.rosemusic.metainfo.xml
+
 
 
 
