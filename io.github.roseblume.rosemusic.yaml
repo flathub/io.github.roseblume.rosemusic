@@ -29,7 +29,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/RoseBlume/RoseMusic.git
-        tag: v2.1.0
+        tag: v3.0.0
       - type: file
         path: io.github.roseblume.rosemusic.metainfo.xml
       - cargo-sources.json
@@ -49,3 +49,4 @@ modules:
       - install -Dm644 src-tauri/target/release/bundle/deb/Rosary*/data/usr/share/icons/hicolor/scalable/apps/rosary-music.svg /app/share/icons/hicolor/scalable/apps/rosary-music.svg
 
       - install -Dm644 io.github.roseblume.rosemusic.metainfo.xml /app/share/metainfo/io.github.roseblume.rosemusic.metainfo.xml
+
